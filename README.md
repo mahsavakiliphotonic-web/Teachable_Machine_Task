@@ -16,7 +16,8 @@ Below is a visual representation of the AI identifying me and my objects with hi
 <img width="155" height="270" alt="image" src="https://github.com/user-attachments/assets/1ea8042d-5734-444e-a271-cde261e8da0a" />
 
 🧠 How it Works
-mages were collected using a webcam. During the data collection process, the lighting conditions were intentionally varied to make the dataset more diverse and improve the model’s ability to recognize objects in different environments.
+
+Images were collected using a webcam. During the data collection process, the lighting and place conditions were intentionally varied to make the dataset more diverse and improve the model’s ability to recognize objects in different environments.
 
 Scissors: When I showed the scissors to the webcam, the AI model identified it with high confidence
 
@@ -26,7 +27,6 @@ Empty: Identifies when I cover the camera with cloth.
 
 Paper: When I placed the paper in front of the webcam, the model classified it accurately
 
-Nothing: A "background" class for when no objects are present (crucial for reducing false positives).
 
 🛠️ Tools Used
 Teachable Machine - Utilized for gathering webcam data, providing labels, and training the classification model.
@@ -42,5 +42,6 @@ This project is an example of Supervised Learning because I provided the model w
 Edge Case: What happens if I hold two objects at once?
 When I hold two objects at the same time, the model becomes confused. It usually picks only one of the objects, even if both are visible. This happens because the model was trained to classify one object per image, not multiple objects at once. Since it cannot output two labels, it chooses the one that looks most similar to the training examples. This shows a limitation of simple image‑classification models.
 Want to learn more about the opposite?
+
 <img width="766" height="388" alt="image" src="https://github.com/user-attachments/assets/f0fe20be-7507-4202-b26b-a49b0366db19" />
 
