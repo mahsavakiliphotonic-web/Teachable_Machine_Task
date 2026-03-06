@@ -5,7 +5,7 @@ I used Teachable Machine to train a custom image classification model. The goal 
 
 🚀 Try It Live!
 You can test this model yourself using your own webcam. No setup required:
-👉 Launch Model Here
+👉 [Click Here to Launch Model](https://teachablemachine.withgoogle.com/models/6gm-QzRHF/)
 
 📸 Proof of Concept
 Below is a visual representation of the AI identifying me and my objects with high confidence:
